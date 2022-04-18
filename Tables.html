@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title>Tables</title>
+  </head>
+  <body>
+    <h1>Tables</h1>
+    <p>How to make tables.</p>
+    <p>Loot at docs on <a href="https://developer.mozilla.org/en-US/docs/Web/HTML/Element/table">MDN</a>.</p>
+<br>
+<ul>
+  <li>Use to structure and represent data in your website.</li>
+  <li>Inside table can create Table Row and Table Data.</li>
+<ul>
+  <li>Table Row 'tr'</li>
+  <li>Table Data/Cell 'td'</li>
+</ul>
+  <li>Various <a href="https://developer.mozilla.org/en-US/docs/Web/HTML/Element/table#attributes">Atributes</a> available for table to change appearance.</li>
+  <li>Most Attributes are Deprecated (Thumbs Down) - not recommended - resist when possible</li>
+<ul>
+  <li>Lines</li>
+  <li>Cellspacing</li>
+  <ul>
+    <li>This attribute defines the sizes of the space between two cells in a <mark>percentage value</mark> or pixels.</li>
+    <li>The atribute is applied both horizontally and vertically, to the space between:</li>
+    <ul>
+      <li>the top of the table and the cells of the first row;</li>
+      <li>the left of the table and the first column:</li>
+      <li>the right of the table and the last column; and </li>
+      <li>the bottom of the table and the last row.</li>
+    </ul>
+  </ul>
+  <li>HTML is for structure, not style.</li>
+</ul>
+
+<hr>
+<table cellspacing="10">
+  <tr>
+  <td>Skill 1</td>
+  <td>⭐⭐⭐⭐</td>
+  <td>Skill 3</td>
+  <td>⭐⭐⭐⭐</td>
+  </tr>
+  <tr>
+    <td>Skill 2</td>
+    <td>⭐⭐⭐⭐</td>
+    <td>Skill 4</td>
+    <td>⭐⭐⭐⭐</td>
+  </tr>
+</table>
+
+<br>
+
+
+<hr>
+<h3>Example Basic:</h3>
+<table cellspacing="30">
+<thead>
+  <th>Dates</th>
+  <th>Work</th>
+</thead>
+
+<tbody>
+  <tr>
+    <td>2011 - 2012</td>
+    <td>Odendaal</td>
+  </tr>
+  <td>2013 - 2015</td>
+  <td>Vardakos</td>
+</tbody>
+
+<tfoot>
+
+  </tfoot>
+</table>
+
+<br>
+<p>Not necessary to say Header, Body and Footer, but it helps later on when you want to deal with them seperately to style or to work with.</p>
+<br>
+
+<hr>
+<h3>Example with lines</h3>
+<p>See attributes. Lines can be inserted but depcrecated</p>
+<table cellspacing="20">
+<thead>
+  <th>Dates</th>
+  <th>Work</th>
+</thead>
+
+<tbody>
+  <tr>
+    <td>2011 - 2012</td>
+    <td>Odendaal</td>
+  </tr>
+  <td>2013 - 2015</td>
+  <td>Vardakos</td>
+</tbody>
+
+<tfoot>
+
+  </tfoot>
+</table>
+  </body>
+</html>
